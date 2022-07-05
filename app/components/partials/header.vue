@@ -9,8 +9,20 @@
     <nav class="nav ml-auto">
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0 md:mr-4 lg:mr-8">
         <li>
-          <nuxt-link to="/blog" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
-            Blog
+          <nuxt-link to="/" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+            Home
+          </nuxt-link>
+          <nuxt-link to="/Releases" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+            Releases
+          </nuxt-link>
+          <nuxt-link to="/merch" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+            Merch
+          </nuxt-link>
+          <nuxt-link to="/Contact Us" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+            Contact Us
+          </nuxt-link>
+          <nuxt-link to="/Sign In" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+            Sign In
           </nuxt-link>
         </li>
 
